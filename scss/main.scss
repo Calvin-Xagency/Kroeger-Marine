@@ -1646,3 +1646,48 @@ circle {
     }
   }
 }
+
+//Custom docks page new
+.page-template-our-custom-docks-oct21 {
+  #inner-page-header {
+    margin-top: 77px;
+    padding-top: 0;
+
+    .page-links {
+      background: #b7b7b7;
+      margin-top: 0;
+      margin-bottom: 5rem;
+      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+
+      a {
+        color: white;
+        font-family: 'montserrat', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 13px;
+        line-height: 1em;
+
+        &:hover {
+          color: #091f40;
+        }
+
+        + a::before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          width: 2px;
+          background: white;
+          vertical-align: -0.125em;
+          margin: 0 2em;
+        }
+      }
+    }
+  }
+
+  .kroeger-docks {
+    padding: 2.5rem 7.5vw 0;
+  }
+}

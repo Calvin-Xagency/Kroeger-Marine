@@ -29,8 +29,8 @@
     <div class="page-content mt-5 kroeger-docks pr-lg-0">
         <div class="container-fluid justify-content-center p-0 m-0">
             <div class="row">
-                <div class="col-lg-7 pl-lg-5 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="pl-lg-4"><img class="img-shadow w-100" src="/wp-content/themes/kroeger-marine/img/deck-product-new.jpg" alt=""></div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class=""><img class="img-shadow w-100" src="/wp-content/themes/kroeger-marine/img/deck-product-new.jpg" alt=""></div>
                 </div>
                 <div class="col-lg-4 mt-lg-0 mt-5 px-3 wow fadeInUp" data-wow-delay=".5s">
                     <h5>QUALITY + INTEGRITY + LONGEVITY</h5>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 mt-lg-0 mt-5 px-3 wow fadeInUp" data-wow-delay=".5s">
+                <div class="offset-1 col-lg-4 mt-lg-0 mt-5 px-3 wow fadeInUp" data-wow-delay=".5s">
                     <h1>The Advantages Of A Kroeger Marine Dock</h1>
                     <ul>
                         <li>• Patent-pending Zigzag understructure
@@ -77,7 +77,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-7 pl-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                <div class="col-lg-6 pl-lg-5 wow fadeInUp" data-wow-delay=".6s">
                         <div class="pl-lg-4"><img class="img-shadow w-100" src="/wp-content/themes/kroeger-marine/img/deck-product-new.jpg" alt=""></div>
                 </div>
             </div>
