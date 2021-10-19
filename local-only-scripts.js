@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 		var regex = /.*\/wp-content/;
 
 		if (src != "" && src != undefined) {
-			$(this).attr("src", src.replace(regex, "https://blueridgemountainclub.com/wp-content"));
+			$(this).attr("src", src.replace(regex, "https://kroegermarine.com/wp-content"));
 			//console.log($(this).attr("src"));
 		}
 	});
@@ -14,6 +14,6 @@ jQuery(document).ready(function($){
 		var src = $(this).attr("style");
 		var regex = /\/\/.*\/wp-content/;
 	
-		$(this).attr("style", src.replace(regex, "https://blueridgemountainclub.com/wp-content"));    
+		$(this).attr("style", src.replace(regex, "https://kroegermarine.com/wp-content"));    
 	});
 });

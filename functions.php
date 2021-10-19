@@ -20,6 +20,7 @@ function child_enqueue_styles() {
 
 	wp_enqueue_style( 'kroeger-marine-theme-css', get_stylesheet_directory_uri() . '/css/main.min.css', array('astra-theme-css'), NULL, 'all' );
 	wp_enqueue_style( 'fix-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_KROEGER_MARINE_VERSION, 'all' );
+	wp_enqueue_script('local-only', get_stylesheet_directory_uri() . '/local-only-scripts.js');
 
 }
 
