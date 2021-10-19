@@ -1,0 +1,80 @@
+.dockmodal .modal-dialog {
+  max-width: 45%; }
+
+.dock-modal {
+  display: -webkit-box;
+  display: flex;
+  padding: 0; }
+  .dock-modal .dock-modal-close {
+    position: absolute;
+    right: -30px;
+    color: white;
+    opacity: 1;
+    top: -20px; }
+
+.dock-modal-img {
+  width: 40%; }
+
+.dock-modal-text {
+  width: 60%;
+  padding: 5%; }
+
+.dock-modal-text h2 {
+  font-size: 36px;
+  color: #b78d6b; }
+
+.dock-modal-close span {
+  font-family: "lato", sans-serif;
+  font-weight: 200;
+  font-size: 40px; }
+
+.modal-open #hotspot-image {
+  position: relative; }
+  .modal-open #hotspot-image:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 31, 64, 0.8);
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+    opacity: 1;
+    visibility: visible; }
+
+#hotspot-image {
+  position: relative; }
+  @media (max-width: 991px) {
+    #hotspot-image {
+      display: none; } }
+  #hotspot-image:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 31, 64, 0.8);
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+    opacity: 0;
+    visibility: hidden; }
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0); }
+
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized
+.tooltipster-box {
+  background: white;
+  border: 0px solid red;
+  border-radius: 1px;
+  box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, 0.4); }
+
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized
+.tooltipster-content {
+  color: #b78d6b;
+  padding: 20px;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase; }

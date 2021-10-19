@@ -1,0 +1,1648 @@
+@import "custom-variables";
+@import "../bootstrap/scss/bootstrap";
+@import "navigation";
+@import "typography";
+@import "buttons";
+@import "footer";
+@import "videobg";
+@import "interactive_dock";
+
+// carousel
+@media (max-width: 991px) {
+  video {
+    display: none;
+  }
+}
+
+.home {
+  .owl-carousel {
+    .owl-stage {
+      height: 100vh;
+
+      .owl-item {
+        height: 100%;
+      }
+    }
+  }
+}
+
+html body a:link {
+  cursor: url("/wp-content/themes/kroeger-marine/img/star.svg");
+}
+
+a:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+  border: 0px;
+}
+
+.social-column a {
+  margin: 0 7px;
+}
+
+.img-shadow {
+  filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+  -webkit-filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+  -moz-filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+}
+
+.brown-text {
+  color: $brown;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.preloader {
+  background-color: #1a304a;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+
+#inner-page-header {
+  margin-top: 100px;
+  padding-top: 5%;
+}
+
+.vertical-divider {
+  width: 1px;
+  background-color: $brown;
+  height: 75px;
+  margin: 5% auto;
+}
+
+.page-content {
+  padding: 4% 10%;
+}
+
+// Home Page styles
+#jumbotron {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  .jumbo_inner {
+    height: 100%;
+    width: 100%;
+
+    .jumbo_slide_1 {
+      background-image: url(/wp-content/themes/kroeger-marine/img/home-header.jpg);
+      background-size: cover;
+    }
+
+    .jumbo_slide_2 {
+      background-image: url(/wp-content/themes/kroeger-marine/img/home-header-2.jpg);
+      background-size: cover;
+
+      h3 {
+        color: white !important;
+      }
+
+      .explore-dock {
+        a {
+          color: white;
+        }
+      }
+    }
+
+    .jumbo_slide_3 {
+      background-image: url(/wp-content/themes/kroeger-marine/img/home-header-3.jpg);
+      background-size: cover;
+
+      h3 {
+        color: white !important;
+      }
+
+      .explore-dock {
+        a {
+          color: white;
+        }
+      }
+    }
+
+    .jumbo_slide {
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100% !important;
+
+      .jumbo_content {
+        h1 {
+          color: white;
+          font-size: 7vw;
+          text-align: center;
+          line-height: 6vw;
+
+          @media (max-width: 1041px) {
+            line-height: 4.5rem;
+          }
+
+          @media (max-width: 767px) {
+            font-size: 45px;
+            line-height: 46px;
+          }
+        }
+
+        h3 {
+          font-size: 2.5vw;
+          color: #b78d6b;
+          font-family: freight-display-pro, serif;
+          font-weight: 400;
+          font-style: italic;
+          text-align: center;
+
+          @media (max-width: 767px) {
+            font-size: 20px;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+.explore-dock {
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  margin: 50px auto 0px auto;
+
+  a {
+    font-size: 17px;
+  }
+
+  &:before {
+    content: "";
+    height: 2px;
+    width: 60%;
+    left: 50%;
+    bottom: -20px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #b78d6b;
+    transition: 0.3s ease all;
+  }
+
+  &:hover {
+    &:before {
+      width: 80%;
+      background-color: white;
+      transition: 0.3s ease all;
+    }
+  }
+}
+
+.slider-nav {
+  position: absolute;
+
+  z-index: 10;
+  bottom: 11%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  h3 {
+    color: white;
+    font-family: freight-big-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 45px;
+
+    span {
+      font-size: 24px;
+    }
+  }
+}
+
+.home .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.home .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #09182e;
+  margin: 0 20px;
+  border: 1px solid #b38b6a;
+  transition: 0.3s ease all;
+
+  @media (max-width: 768px) {
+    height: 12px;
+  }
+}
+
+.home .owl-dots button.owl-dot.active {
+  background-color: white;
+  transition: 0.3s ease all;
+}
+
+.home .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+.testimonial {
+  text-align: center;
+
+  .quote-mark {
+    font-family: athelas, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 71px;
+    line-height: 70px;
+  }
+
+  .quote {
+    font-family: athelas, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 32px;
+    width: 75%;
+    margin: -40px auto 0;
+
+    @media (max-width: 991px) {
+      width: 90%;
+      font-size: 22px;
+    }
+  }
+}
+
+.page-template-erosion-control .owl-dots,
+.page-template-craftsmanship .owl-dots {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-template-erosion-control .owl-dots button.owl-dot,
+.page-template-craftsmanship .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #09182e;
+  margin: 0 5px;
+  border: 1px solid #b38b6a;
+  transition: 0.3s ease all;
+}
+
+.page-template-erosion-control .owl-dots button.owl-dot.active,
+.page-template-craftsmanship .owl-dots button.owl-dot.active {
+  background-color: $brown;
+  transition: 0.3s ease all;
+}
+
+.page-template-erosion-control .owl-dots button.owl-dot:focus,
+.page-template-craftsmanship .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+.counter-1 {
+  position: relative;
+  top: -2px;
+}
+
+.counter-2 {
+  position: relative;
+  top: 2px;
+}
+
+.counter-divider {
+  color: #ba906c;
+  margin: 0 5px;
+}
+
+.grid-wrapper {
+  display: flex;
+  padding: 0px;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+
+  .grid-item {
+    display: flex;
+    width: 33.3%;
+    position: relative;
+    height: 220px;
+    transition: text-shadow 0.1s ease-in, -webkit-transform 0.14s ease-in;
+    transition: transform 0.14s ease-in, text-shadow 0.1s ease-in;
+    transition: transform 0.14s ease-in, text-shadow 0.1s ease-in,
+      -webkit-transform 0.14s ease-in;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    &:before {
+      content: "";
+      visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: none;
+      border-radius: 3px;
+      box-shadow: 0 10px 24px 0px rgba(0, 0, 0, 0.06),
+        0 8px 20px -2px rgba(0, 0, 0, 0.1), 0 6px 10px -6px rgba(0, 0, 0, 0.2);
+      transition: visibility 0.1s ease-out, opacity 0.1s ease-out;
+      opacity: 0;
+    }
+
+    &:hover {
+      &:before {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    .grid-item-inner {
+      display: flex;
+      position: relative;
+      align-items: stretch;
+      justify-content: center;
+      text-decoration: none;
+      color: #eeeeee;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+
+      &:hover {
+        .grid-item-image {
+          transform: scale(1.2);
+        }
+
+        .grid-item-hover {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+
+      .grid-item-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        background-position: center center;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        will-change: transform;
+        transition: -webkit-transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+          -webkit-transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        z-index: 0;
+      }
+
+      .grid-item-hover {
+        visibility: hidden;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(9, 31, 64, 0.6);
+        border-radius: 0;
+        transition: visibility 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+          opacity 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        opacity: 0;
+      }
+
+      .grid-item-name {
+        font-size: 2rem;
+        font-weight: 300;
+        text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4),
+          2px 2px 6px rgba(0, 0, 0, 0.3);
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+      }
+    }
+  }
+}
+
+#home-content {
+  padding: 0px 0px 150px 0px;
+  background-image: url(/wp-content/themes/kroeger-marine/img/home-2-bg.png);
+  background-size: cover;
+  background-position: bottom;
+
+  .home-content-sub {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .home-sec-2 {
+    padding: 0px;
+
+    .home-content-img {
+      img {
+        -webkit-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.29);
+        -moz-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.29);
+        box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.29);
+      }
+    }
+
+    .home-content-wrapper {
+      padding: 0 5%;
+
+      @media (max-width: 991px) {
+        padding: 0 15% 5%;
+      }
+
+      .home-content-inner {
+        position: relative;
+        top: 15%;
+      }
+    }
+  }
+}
+
+// Hotspots
+.hotspot {
+  background-color: #bba28b;
+  position: absolute;
+  border-radius: 50px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.hotspot-outer {
+  background-color: #182b47;
+  width: 70%;
+  height: 70%;
+  border-radius: 50px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hotspot-inner {
+  background: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 50px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.contain {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// loader-icon
+circle {
+  fill: #b78d6b;
+}
+
+.loader-icon {
+  svg {
+    height: 100px;
+
+    path {
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 5;
+    }
+  }
+}
+
+.short {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 5;
+  stroke-width: 2px;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 0;
+  animation: shortDash 2s linear forwards;
+  animation-iteration-count: infinite;
+  stroke: #fff;
+  animation-delay: 0.7s;
+  fill: none;
+}
+
+.medium {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 5;
+  stroke-width: 2px;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 0;
+  animation: mediumDash 2s linear forwards;
+  animation-iteration-count: infinite;
+  stroke: #fff;
+  animation-delay: 0.35s;
+  fill: none;
+}
+
+.long {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 5;
+  stroke-width: 2px;
+  stroke-dasharray: 125;
+  stroke-dashoffset: 0;
+  animation: longDash 2s linear forwards;
+  animation-iteration-count: infinite;
+  stroke: #fff;
+  fill: none;
+}
+
+@keyframes shortDash {
+  from {
+    stroke-dashoffset: 100;
+    stroke-width: 2px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+@keyframes longDash {
+  from {
+    stroke-dashoffset: 250;
+    stroke-width: 2px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+@keyframes mediumDash {
+  from {
+    stroke-dashoffset: 200;
+    stroke-width: 2px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    fill-opacity: 0;
+  }
+
+  75% {
+    fill-opacity: 0;
+  }
+
+  100% {
+    fill-opacity: 1;
+  }
+}
+
+.loader-icon {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*.our-people-img {
+  // width: 75%;
+}*/
+
+@media (min-width: 992px) {
+  .image-spacer {
+    margin-top: -150px;
+  }
+
+  .our-people-img {
+    margin-top: -50px;
+    transform: translateY(-150px);
+  }
+}
+
+.world-class-wrapper {
+  background-image: url(/wp-content/themes/kroeger-marine/img/shop-bg-img.jpg);
+  height: 675px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+
+  @media (max-width: 768px) {
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8);
+      z-index: 0;
+    }
+  }
+
+  .world-class-inner {
+    margin: 0 0 40px 0;
+    z-index: 1;
+    position: relative;
+
+    .world-class-1 {
+      h1 {
+        width: 100%;
+        text-align: center;
+      }
+
+      p {
+        text-transform: uppercase;
+        color: $dark-blue;
+        width: 100%;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        line-height: 2rem;
+        font-size: 14px;
+      }
+    }
+
+    .world-class-2 {
+      padding: 0 5%;
+      margin-top: 20px;
+
+      @media (max-width: 768px) {
+        flex-wrap: wrap;
+      }
+
+      img {
+        width: 50px;
+
+        @media (max-width: 768px) {
+          width: 35px;
+        }
+      }
+
+      .col-3 {
+        p {
+          width: auto;
+          margin: 0px 15px;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 600;
+          font-size: 14px;
+          color: $brown;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+.kroeger-docks {
+  background-image: url(/wp-content/themes/kroeger-marine/img/cad-bg-1.png);
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  @media (max-width: 991px) {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+.mountain-bg {
+  background-image: url(/wp-content/themes/kroeger-marine/img/home-2-bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.interactive-header {
+  background-color: $dark-blue;
+  padding: 40px 5%;
+
+  @media (max-width: 991px) {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+
+    @media (max-width: 991px) {
+      display: inline-block;
+    }
+
+    li {
+      color: white;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      margin: 0 20px;
+      position: relative;
+
+      @media (max-width: 991px) {
+        width: 100%;
+
+        &:before {
+          content: url(/wp-content/themes/kroeger-marine/img/white-star.svg);
+          position: absolute;
+          left: -27px;
+          top: 30%;
+          transform: translateY(-50%);
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+        }
+      }
+
+      &:not(:first-child):before {
+        content: url(/wp-content/themes/kroeger-marine/img/white-star.svg);
+        position: absolute;
+        left: -27px;
+        top: 50%;
+        transform: translateY(-90%);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+#dock-features {
+  background-image: url(/wp-content/themes/kroeger-marine/img/features-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.roof-style {
+  position: relative;
+
+  img {
+    width: 100%;
+    filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+    -webkit-filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+    -moz-filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+  }
+
+  .roof-btn-wrapper {
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+
+    .roof-btn {
+      padding: 10px 10px;
+      background-color: #b18968;
+      min-width: 250px;
+      text-align: center;
+
+      a {
+        font-size: 20px;
+        margin: 0 auto;
+        padding: 4px 0px;
+        color: white;
+        display: block;
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+.simple-link {
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: $brown;
+  line-height: 2.25rem;
+
+  &:hover {
+    color: $dark-blue;
+  }
+}
+
+.dock-accessories {
+  margin: 40px 20px 0px 20px;
+
+  img {
+    border-radius: 50%;
+    filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+    -webkit-filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+    -moz-filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.42));
+  }
+
+  .acacessories-text {
+    text-align: center;
+    margin-top: 20px;
+
+    span {
+      font-family: freight-big-pro, serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 24px;
+      color: $dark-blue;
+    }
+  }
+}
+
+.accesories-list {
+  display: flex;
+  justify-content: center;
+
+  .list-2 {
+    @media (max-width: 991px) {
+      li {
+        &:first-child {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+
+  ul {
+    margin: 0px;
+    display: inline-block;
+    width: auto;
+
+    @media (max-width: 991px) {
+      min-width: 220px;
+    }
+
+    li {
+      font-family: freight-big-pro, serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 22px;
+      color: $dark-blue;
+      margin: 20px 0px;
+
+      &:before {
+        content: "";
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        background-image: url(/wp-content/themes/kroeger-marine/img/north-star.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 0.5em;
+        transform: translateY(25%);
+      }
+    }
+  }
+}
+
+.mountain-spacer {
+  height: 400px;
+  background-image: url(/wp-content/themes/kroeger-marine/img/mountain-spacer.png);
+  background-size: cover;
+  margin-top: -200px;
+  width: 100%;
+  background-position: bottom;
+}
+
+.solving-wrapper {
+  margin-top: 100px;
+
+  @media (max-width: 991px) {
+    margin-top: 50px;
+  }
+
+  text-align: center;
+
+  h5 {
+    line-height: 1.75rem;
+  }
+}
+
+.solving-numbers-list {
+  max-width: 1600px;
+  margin: 40px auto 0;
+
+  .solving-item {
+    display: inline-flex;
+
+    .solving-number {
+      span {
+        font-family: freight-big-pro, serif;
+        font-weight: 400;
+        /* font-style: normal; */
+        background: #b78d6b;
+        border-radius: 50%;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 56px;
+        margin-right: 5px;
+        text-align: center;
+        width: 1.5em;
+        height: 1.5em;
+        font-size: 43px;
+        position: relative;
+        transform: translate(-10px, 0px);
+      }
+    }
+
+    p {
+      font-family: poppins, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: $brown;
+      letter-spacing: 2px;
+      line-height: 1.75rem;
+    }
+  }
+}
+
+.testimonial-wrapper {
+  background-image: url(/wp-content/themes/kroeger-marine/img/mountain-spacer.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.process-wrapper {
+  margin-top: 100px;
+
+  .row {
+    margin: 75px 0px;
+  }
+
+  .process-text {
+    span {
+      font-family: montserrat, sans-serif;
+      font-size: 25px;
+      font-weight: 100;
+      color: black;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+
+    ul {
+      margin: 5px 0px 0px 20px;
+
+      li {
+        margin: 10px 0px;
+      }
+    }
+  }
+}
+
+#instafeed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    width: 25%;
+  }
+
+  img {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-menu {
+    display: none;
+  }
+}
+
+// Video Page styles
+.video-page-content {
+  margin-top: 77px;
+  padding-top: 3%;
+
+  @media (max-width: 768px) {
+    margin-top: -70px;
+  }
+}
+
+.page-template-video-page .header {
+  background: #003149;
+}
+
+.page-template-video-page .embed-container {
+  --video--width: 1296;
+  --video--height: 540;
+
+  position: relative;
+  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
+  /* 41.66666667% */
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.page-template-video-page .embed-container iframe,
+.page-template-video-page .embed-container object,
+.page-template-video-page .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 3% 0;
+}
+
+@media (max-width: 767px) {
+  .page-template-video-page .video-wrapper {
+    margin-top: 200px;
+  }
+
+  .page-template-video-page .embed-container {
+    --video--width: 1296;
+    --video--height: 540;
+    position: relative;
+    padding-bottom: calc(var(--video--height) / var(--video--width) * 140%);
+    overflow: hidden;
+    max-width: 100%;
+  }
+}
+
+@import "responsive";
+
+#covidPopup {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+
+  .modal-dialog {
+    max-width: 50%;
+
+    @media (max-width: 768px) {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    .modal-content {
+      padding: 10%;
+      background-image: url(/wp-content/themes/kroeger-marine/img/kroeger-popup-bg.jpg);
+      background-size: cover;
+      position: relative;
+      z-index: 999999999999999999;
+
+      button {
+        position: absolute;
+        right: -50px;
+        top: -25px;
+        color: white;
+        font-size: 30px;
+
+        @media (max-width: 768px) {
+          right: 50%;
+          transform: translateX(50%);
+          top: -40px;
+        }
+      }
+
+      .pop-icon {
+        img {
+          width: 50px;
+          margin-bottom: 15px;
+        }
+      }
+
+      h5 {
+        color: white;
+        text-align: center;
+        font-weight: 700;
+      }
+
+      h1 {
+        color: #b78d6b;
+        text-align: center;
+
+        @media (max-width: 768px) {
+          font-size: 27px;
+        }
+      }
+
+      p {
+        color: white;
+
+        @media (max-width: 768px) {
+          font-size: 14px;
+          line-height: normal;
+        }
+      }
+
+      .contact {
+        color: #b78d6b;
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+      }
+
+      .contact-info {
+        color: white;
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+
+        @media (max-width: 768px) {
+          font-size: 14px;
+        }
+
+        a {
+          color: white;
+          font-family: poppins, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 16px;
+
+          @media (max-width: 768px) {
+            font-size: 14px;
+          }
+        }
+
+        span {
+          @media (max-width: 768px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.special-box {
+  width: 60%;
+  background-color: #f3f4f4;
+  padding: 3%;
+  text-align: center;
+  margin: 33px auto;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .box-text {
+    font-size: 18px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #33353b;
+    text-transform: uppercase;
+    line-height: 2.25rem;
+
+    span {
+      color: #a67d5c;
+    }
+  }
+
+  a {
+    background-color: #a67d5c;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 13px 30px;
+    border-radius: 6px;
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0 15px;
+  }
+}
+
+#accessories {
+  padding-top: 100px;
+}
+
+.jumbo_slide_1 {
+  .explore-dock {
+    a {
+      font-weight: 700;
+      color: white;
+    }
+  }
+}
+
+/*******Kroeger Accesories Page********/
+
+#accessories {
+  padding-top: 6.75rem;
+
+  .promo-container {
+    background: $dark-blue;
+    border: 2px solid #ba906c;
+    padding: 2em;
+    max-width: 100ch;
+    text-align: center;
+    margin: 0 auto;
+
+    h3 {
+      color: white;
+      /*font-size: max(25px, min(5vw, 35px)); done in style.css because sass doesnt support*/
+    }
+
+    p {
+      color: white;
+      /*font-size: max(1.1em, min(3vw, 1.6em));*/
+    }
+  }
+
+  .images h2,
+  .content h2 {
+    color: #ba906c;
+
+    span {
+      font-size: .4em;
+      vertical-align: super;
+    }
+  }
+
+  .images {
+    padding-right: 3em;
+
+    h2 {
+      display: none;
+    }
+
+    >img {
+      margin-bottom: 1em;
+      box-shadow: 4px 10px 15px 0px #0000003f;
+      max-height: 450px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  .sub-images {
+    display: flex;
+
+    img {
+      max-width: 150px;
+      max-height: 150px;
+      width: 100%;
+      object-fit: fill;
+      margin: 1em 0 1em 1em;
+    }
+  }
+
+  .content {
+    padding-left: 4em;
+
+    p {
+      font-size: 14px;
+      line-height: 1.6rem;
+
+      a {
+        font-family: poppins;
+        color: #ba906c;
+      }
+    }
+
+    h3 {
+      margin-top: 1em;
+    }
+
+    .subtitle {
+      text-transform: uppercase;
+      color: #ba906c;
+      margin: 0;
+    }
+
+    .features ul,
+    .features ol {
+      list-style: none;
+      margin: 0;
+      position: relative;
+
+      li {
+        text-transform: uppercase;
+        color: #091f40;
+        font-weight: bold;
+        font-size: 12px;
+        margin-left: 2em;
+
+        &:before {
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          display: inline-block;
+          /*background: #091f40;*/
+          margin-left: -2em;
+          margin-top: .5em;
+          background-image: url(/wp-content/themes/kroeger-marine/img/north-star.svg);
+        }
+      }
+
+      li+li {
+        /*margin-top: 1em;*/
+      }
+    }
+
+    .dimensions {
+
+      p {
+        margin: 0;
+      }
+
+      h4 {
+        text-transform: uppercase;
+        color: #ba906c;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+
+    .btn {
+      margin-top: 2em;
+      padding: .5em 5.5em;
+    }
+
+    .flex {
+      display: flex;
+      position: relative;
+      width: 110%;
+
+      div {
+        width: 60%;
+      }
+
+      div:nth-child(2) {
+        width: 45%;
+        margin-left: 2em;
+      }
+
+      div h4+h4 {
+        margin-top: 2em;
+      }
+    }
+  }
+
+  .container-fluid:nth-child(even) {
+    background: #f7f8f7;
+
+    .images {
+      padding-right: 15px;
+      padding-left: 4em;
+    }
+
+    .sub-images img {
+      margin: 1em 1em 1em 0;
+    }
+
+    .content {
+      padding-left: 15px;
+      padding-right: 3em;
+    }
+
+    .images {
+      padding-left: 5em;
+    }
+  }
+
+  .container-fluid {
+    padding-bottom: 5em;
+  }
+
+  .container-fluid+.container-fluid {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
+
+#accessories-footer {
+  >h2 {
+    text-align: center;
+    margin: 2em 0;
+    font-family: poppins;
+    color: #182b47;
+    font-size: 28px;
+
+    a {
+      color: #ba906c;
+      font-family: poppins;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  #accessories .container-fluid .row .images,
+  #accessories .container-fluid .row .content {
+    padding: 0 5%;
+  }
+
+  #accessories {
+
+    h2 {
+      font-size: 42px;
+    }
+
+    .images h2 {
+      display: inline-block;
+    }
+
+    .accessory-info h2 {
+      display: none;
+    }
+
+    .sub-images {
+      justify-content: center;
+    }
+
+    .content .flex {
+      width: 100%;
+    }
+  }
+}
+
+/*********Kroeger Header Accessories**********/
+
+.sub-menu {
+  list-style-type: none;
+  margin-left: 2.5em;
+
+  li a {
+    font-size: 3em;
+  }
+}
+
+
+/*****Header button ipad fix******/
+
+.header-btn-wrapper {
+  margin-left: -5em;
+}
+
+.menu-item-3415,
+.menu-item-3410 {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+
+  .menu-item-3415,
+  .menu-item-3410 {
+    display: list-item;
+  }
+}
+
+@media (max-width: 1360px) {
+  .btn-header {
+    padding: .6em;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .header-dock-btn {
+    padding-right: 10px;
+  }
+
+  .header-btn-wrapper {
+    margin-left: -2em;
+  }
+}
+
+
+/******Mobile menu fix*****/
+#page {
+  overflow: hidden;
+}
+
+.full-nav .modal-dialog .modal-content {
+  padding-top: 6em;
+}
+
+.modal-bottom {
+  padding: 0 3rem;
+}
+
+.modal-body {
+  overflow-y: auto;
+}
+
+@media (min-width: 992px) {
+  .menu li {
+    margin: 15px 0;
+  }
+}
+
+.menu-wrapper {
+  margin-top: 3em;
+  align-self: flex-start;
+}
+
+@media (max-width: 1100px) {
+  #menu-item-3365 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu {
+    margin-left: 0;
+  }
+
+  .modal-bottom {
+    padding: 0;
+  }
+
+  .full-nav .modal-body {
+    align-items: flex-start;
+  }
+
+  .sub-menu {
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-wrapper {
+    height: 80vh;
+    margin-top: 1em;
+  }
+}
+
+.shawn-test {
+  color: blue;
+}
+
+#gallery {
+  margin: 100px 0;
+
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+
+
+    .gallery-item {
+      width: 20%;
+
+      @media (max-width: 1225px) {
+        width: 25%;
+      }
+
+      @media (max-width: 950px) {
+        width: 33.3%;
+      }
+
+      @media (max-width: 749px) {
+        width: 50%;
+      }
+
+      @media (max-width: 549px) {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,292 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  transition: $ease;
+  background-color: $dark-blue;
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    .navbar-brand-img {
+      height: 100px;
+      transition: $ease;
+      @media (max-width: 768px) {
+        height: 75px;
+      }
+    }
+  }
+}
+
+.page-template-home .navigation {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navigation.scrolled {
+  background-color: rgba(9, 31, 64, 0.9);
+  transition: $ease;
+  -webkit-box-shadow: 0px 7px 18px -3px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 7px 18px -3px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 7px 18px -3px rgba(0, 0, 0, 0.29);
+}
+
+.navbar-brand-img.scrolled {
+  height: 80px !important;
+  transition: $ease;
+  @media (max-width: 768px) {
+    height: 70px;
+  }
+}
+
+.tooltip_templates {
+  display: none;
+}
+
+// hamburger
+.hamburger {
+  display: flex;
+  margin-left: 13px;
+}
+.hamburger:hover {
+  cursor: pointer;
+}
+.hamburger:hover .menu-text {
+  color: $brown;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    top: 25%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+.hamburger ul {
+  float: right;
+  padding-left: 8px;
+  margin: -3px 0 0 0;
+  width: 50px;
+}
+
+.hamburger {
+  a {
+    margin-left: 15px;
+  }
+}
+
+.menu-text {
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 10px;
+  -webkit-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.hamburger ul li {
+  width: 32px;
+  background: $brown;
+  height: 2px;
+  display: block;
+  margin: 6px 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-left: 10px;
+  transition: 0.3s ease all;
+  position: relative;
+}
+
+.hamburger:hover ul li:first-child {
+  width: 18px;
+  background: white;
+}
+
+.hamburger ul li:nth-child(3) {
+  background: $brown;
+  width: 25px;
+}
+
+.hamburger:hover ul li:nth-child(2) {
+  background: white;
+  width: 25px;
+}
+
+.hamburger:hover ul li:last-child {
+  width: 32px;
+  background: white;
+}
+
+.hamburger.open {
+  &:hover {
+    ul {
+      li {
+        &:first-child,
+        &:last-child {
+          width: 32px;
+        }
+      }
+    }
+  }
+  ul {
+    li {
+      transition: 0.3s ease all;
+      background-color: white;
+      &:first-child {
+        transform: rotate(45deg);
+        top: 8px;
+      }
+      &:nth-child(2) {
+        opacity: 0;
+        left: 5px;
+        width: 5px;
+      }
+      &:last-child {
+        transform: rotate(-45deg);
+        top: -8px;
+        width: 32px;
+      }
+    }
+  }
+}
+
+.full-nav {
+  .modal-dialog {
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    @media (max-width: 1024px) {
+      height: 105vh;
+    }
+    .modal-content {
+      height: 100%;
+      background-color: #091f40;
+      background-image: url(/wp-content/themes/kroeger-marine/img/menu-bg.png);
+      background-size: cover;
+    }
+  }
+}
+
+.navigation.scrolled.open {
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.2s ease all;
+  box-shadow: none;
+}
+
+.full-nav {
+  .modal-body {
+    display: flex;
+    align-items: center;
+    .menu {
+      li  a {
+        @media (max-width: 1024px) {
+          font-size: 30px;
+        }
+      }
+      li + li{
+        @media (max-width: 1024px) {
+          margin: 15px 0;
+        }
+      }
+    }
+  }
+}
+
+.menu-wrapper {
+  position: relative;
+  // top: 50%;
+  // transform: translateY(-50%);
+  max-width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  @media (max-width: 768px) {
+    /*top: auto;
+    transform: translateY(15%);*/
+  }
+  .menu-column {
+    width: 45%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .menu-info-wrapper {
+    width: 100%;
+    .social-column {
+      h5 {
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: white;
+      }
+
+      a {
+        font-size: 16px;
+        font-family: poppins, sans-serif;
+        font-weight: 400;
+        color: $brown;
+      }
+      p {
+        line-height: 22px;
+        margin: 10px 0;
+        color: $brown;
+      }
+    }
+  }
+}
+
+.menu {
+  @media (max-width: 768px) {
+    margin-bottom: 0px;
+  }
+  li {
+    a {
+      font-size: 60px;
+      color: $brown;
+      position: relative;
+      transition: $ease;
+      @media (max-width: 768px) {
+        font-size: 25px;
+      }
+      &:hover {
+        color: white;
+        margin-left: 30px;
+        transition: $ease;
+        &:before {
+          opacity: 1;
+          transition: 0.3s ease all;
+          left: -50px;
+        }
+      }
+      &:before {
+        content: url(/wp-content/themes/kroeger-marine/img/star.svg);
+        color: white;
+        font-size: 18px;
+        font-family: fontawesome;
+        font-style: normal;
+        padding-left: 10px;
+        position: absolute;
+        top: 50%;
+        left: -100px;
+        transform: translateY(-30%);
+        opacity: 0;
+        transition: 0.3s ease all;
+      }
+    }
+  }
+}
+
+.header-btn-wrapper {
+  @media (max-width: 1019px) {
+    display: none !important;
+  }
+}
+
+.menu {
+  list-style: none;
+}

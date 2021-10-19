@@ -1,0 +1,116 @@
+#cta {
+  .box-button {
+    padding: 50px;
+    width: 100%;
+    display: inline-block;
+    transition: $ease;
+    @media (max-width: 768px) {
+      padding: 25px;
+    }
+
+    .box-border {
+      padding: 50px;
+      @media (max-width: 768px) {
+        padding: 25px;
+      }
+    }
+  }
+  .box-button-1 {
+    background-color: $brown;
+    background-image: url(/wp-content/themes/kroeger-marine/img/box-1-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+      transition: $ease;
+      background-color: rgba(0, 0, 0, 0.82);
+    }
+    .box-border {
+      border: solid 1px white;
+      h3 {
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+  .box-button-2 {
+    background-color: $dark-blue;
+    background-image: url(/wp-content/themes/kroeger-marine/img/box-2-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+      transition: $ease;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+    .box-border {
+      border: solid 1px $brown;
+      h3 {
+        color: $brown;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.footer-wrapper {
+  padding: 5% 10% 2.5% 10%;
+
+  .footer-column-wrapper {
+    margin-bottom: 100px;
+    .footer-column {
+      h5 {
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      p {
+        line-height: 20px;
+        color: $brown;
+      }
+      a {
+        font-size: 16px;
+        font-family: poppins, sans-serif;
+        font-weight: 400;
+        color: $brown;
+      }
+      ul {
+        margin-left: 0px;
+        li {
+          a {
+            font-size: 16px;
+            font-family: poppins, sans-serif;
+            font-weight: 400;
+            color: $brown;
+            transition: 0.3s ease all;
+            &:hover {
+              color: $dark-blue;
+              transition: 0.3s ease all;
+            }
+            .fa {
+              &:hover {
+                color: $dark-blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-copyright {
+    p {
+      color: $dark-blue;
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 20px;
+      a {
+        color: $dark-blue;
+        font-size: 12px;
+        font-family: poppins, sans-serif;
+        font-weight: 400;
+        span {
+          color: $brown;
+        }
+      }
+    }
+  }
+}

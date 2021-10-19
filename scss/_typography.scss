@@ -1,0 +1,113 @@
+// Typography
+
+h1,
+h2,
+h3 {
+  font-family: freight-big-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ba906c;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  @media (max-width: 768px) {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 60px;
+  color: $dark-blue;
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+.dark-blue {
+  color: $dark-blue;
+}
+
+#inner-page-header .title {
+  font-size: 95px;
+  @media (max-width: 768px) {
+    font-size: 45px;
+  }
+}
+
+#inner-page-header h2 {
+  color: $dark-blue;
+}
+
+.sub-title {
+  font-style: italic;
+}
+
+h3 {
+  font-size: 35px;
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
+}
+
+h5 {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $dark-blue;
+  letter-spacing: 2px;
+}
+
+a {
+  font-family: freight-big-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+p {
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #33353b;
+  line-height: 2.25rem;
+}
+
+ul {
+  li {
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #33353b;
+    line-height: 2.25rem;
+  }
+}
+
+.page-template-faq {
+  ul {
+    li {
+      font-size: 16px;
+      font-family: poppins, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #33353b;
+      line-height: 2.25rem;
+    }
+  }
+}
+
+.menu {
+  li {
+    @media (min-width: 992px) {
+      margin: 25px 0px;
+    }
+  }
+}

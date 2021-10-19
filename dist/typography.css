@@ -1,0 +1,11 @@
+h1 {
+  font-family: freight-big-pro, serif;
+  font-weight: 400;
+  font-style: normal; }
+
+a {
+  font-family: freight-big-pro, serif;
+  font-weight: 400;
+  font-style: normal; }
+  a:hover {
+    text-decoration: none; }

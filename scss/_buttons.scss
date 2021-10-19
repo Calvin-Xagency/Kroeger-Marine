@@ -1,0 +1,105 @@
+// Links and Buttons
+
+.link-dark {
+  color: #b78d6b;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  transition: 0.3s ease all;
+  &:hover {
+    color: white;
+    transition: 0.3s ease all;
+  }
+}
+
+.link-header {
+  color: $brown;
+  text-transform: uppercase;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.125rem;
+  transition: 0.3s ease all;
+  &:hover {
+    color: white;
+    transition: 0.3s ease all;
+  }
+}
+
+.link-light {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  transition: 0.3s ease all;
+  &:hover {
+    color: #b78d6b;
+    transition: 0.3s ease all;
+  }
+}
+
+.btn-header {
+  background-color: white;
+  color: $brown;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 1em 1.5em; /*13px 30px;*/
+  border-radius: 6px;
+  transition: $ease;
+  font-size: 13px; /*used to be 14px*/
+  letter-spacing: 1px;
+  margin: 0 15px;
+
+  &:hover {
+    background-color: $brown;
+    transition: $ease;
+    color: white;
+  }
+}
+
+.btn-brown, .btn-blue {
+  background-color: $brown;
+  color: white;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 6px;
+  transition: $ease;
+
+  &:hover {
+    background-color: $dark-blue;
+    transition: $ease;
+    color: white;
+  }
+}
+
+.btn-blue {
+  background-color: $dark-blue;
+
+  &:hover {
+    background-color: $brown;
+  }
+}
+
+.box-btn {
+  padding: 2em 0;
+  width: calc(50vw - 100px);
+  display: block;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  border-radius: 0;
+  font-family: 'freight-big-pro', serif;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .box-btn {
+    padding: 1em 0;
+    width: 80vw;
+    font-size: 1.6em;
+  }
+}
