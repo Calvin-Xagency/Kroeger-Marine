@@ -1654,7 +1654,7 @@ circle {
   }
   
   #inner-page-header {
-    margin-top: 77px;
+    margin-top: 150px;
     padding-top: 0;
 
     .page-links {
@@ -1664,6 +1664,15 @@ circle {
       padding: 1rem 0;
       display: flex;
       justify-content: center;
+      position: fixed;
+      width: 100vw;
+      z-index: 1;
+      top: 109px;
+      transition: transform 0.3s;
+
+      &.sticky {
+        transform: translateY(-20px);
+      }
 
       a {
         color: white;
@@ -1688,6 +1697,101 @@ circle {
           margin: 0 2em;
         }
       }
+
+      @media (max-width: 767px) {
+        top: 85px;
+        flex-wrap: wrap;
+        transform: translateY(-100%);
+        padding: 1.5rem;
+
+        .toggle {
+          appearance: none;
+          position: absolute;
+          background: #b7b7b7;
+          box-shadow: 0 15px 25px -10px #0000007f;
+          border-radius: 3px;
+          width: 80px;
+          height: 40px;
+          bottom: -35px;
+          z-index: 1;
+
+          &::after {
+            content: '';
+            position: absolute;
+            background: black;
+            clip-path: polygon(0% 35%, 50% 55%, 100% 35%,
+                              100% 45%, 50% 65%, 0% 45%);
+            width: 75%;
+            height: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            transition: transform 0.3s;
+          }
+
+          &.open::after {
+            transform: translate(-50%, -50%) scaleY(-1);
+          }
+        }
+
+        a {
+          flex: 0 0 100%;
+          text-align: center;
+          font-size: 16px;
+          position: relative;
+
+          + a::before {
+            position: absolute;
+            width: 75px;
+            height: 2px;
+            top: 0.5em;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+          }
+
+          + a {
+            padding-top: 1em;
+          }
+
+          &:nth-child(-1n) {
+            padding-bottom: 1em;
+          }
+        }
+
+        &.sticky {
+          transform: translateY(-100%);
+
+          a {
+            color: #b7b7b7;
+
+            &::before {
+              background: #b7b7b7;
+            }
+
+            &:hover {
+              color: #091f40;
+            }
+          }
+        }
+
+        &.open {
+          transform: translateY(0);
+
+          a {
+            color: white;
+
+            &::before {
+              background: white;
+            }
+
+            &:hover {
+              color: #091f40;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -1702,6 +1806,10 @@ circle {
 
     .row:nth-child(1) > div:nth-child(2) {
       margin-left: 4rem;
+
+      @media (max-width: 1199px) {
+        margin-right: 4rem;
+      }
     }
 
     .row:nth-child(2) > div:nth-child(1) {
@@ -1709,6 +1817,12 @@ circle {
       //max-width: 37.5%;
       max-width: 550px;
       flex: 0 0 37.5%;
+      
+      @media (max-width: 1199px) {
+        margin-left: auto;
+        margin-right: auto;
+        flex: 0 0 100%;
+      }
 
       ul {
         list-style: none;
@@ -1753,7 +1867,7 @@ circle {
   }
 
   .three-reasons {
-    background: #091f40;
+    background: #091f40 url('/wp-content/uploads/2021/10/threeReasons.jpg">');
     padding: 3rem 7.5vw 3rem;
 
     h2 {
@@ -1782,6 +1896,12 @@ circle {
         left: calc(50% + 3px);
         transform: translate(-50%, -50%);
         margin: 0;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .row > div:nth-child(n + 3) .number {
+        margin-top: 0.5em;
       }
     }
 
@@ -1818,7 +1938,7 @@ circle {
   }
 
   #dock-features {
-    background: linear-gradient(to top, #f7f8f7 75%, transparent 75%); 
+    background: linear-gradient(to top, #f7f8f7 85%, transparent 75%); 
   }
 
   .roofs,
@@ -1833,12 +1953,31 @@ circle {
       text-transform: uppercase;
       color: #ba906c;
       text-align: center;
+      margin: 2rem 0;
     }
 
     p {
       color: #33353b;
       font-size: 17px;
       text-align: center;
+    }
+
+    > div {
+      text-align: center;
+    }
+  }
+
+  .roofs {
+    > div {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img {
+      width: 100%;
+      margin: 2rem 0 1rem;
+      box-shadow: 0px 10px 25px #0000007f;
     }
   }
 
@@ -1875,8 +2014,6 @@ circle {
         }
       }
     }
-
-
 
     .colors {
       box-shadow: 0px 0px 10px #0000003f;
@@ -1928,11 +2065,11 @@ circle {
       }
     }
 
-
-  }
-
-  .dock {
-    background: #f7f8f7;
+    img {
+      border-radius: 50%;
+      filter: drop-shadow(0px 15px 15px #0000007f);
+      margin: 2rem 0 1rem;
+    }
   }
 
   .decking {
@@ -1942,6 +2079,22 @@ circle {
 
     .page-content {
       padding: 4% 2.5vw;
+    }
+
+    img {
+      width: 100%;
+      margin: 2rem 0;
+      box-shadow: 0px 10px 25px #0000007f;
+    }
+  }
+
+  .dock {
+    background: #f7f8f7;
+
+    img {
+      border-radius: 50%;
+      filter: drop-shadow(0px 15px 15px #0000007f);
+      margin: 3rem 0 1rem;
     }
   }
 
