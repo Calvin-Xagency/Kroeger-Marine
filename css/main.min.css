@@ -1284,7 +1284,42 @@ circle{fill:#b78d6b}
 .page-template-our-custom-docks-oct21 #inner-page-header .page-links a{color:white;font-family:'montserrat',sans-serif;font-weight:bold;text-transform:uppercase;letter-spacing:.1em;font-size:13px;line-height:1em}
 .page-template-our-custom-docks-oct21 #inner-page-header .page-links a:hover{color:#091f40}
 .page-template-our-custom-docks-oct21 #inner-page-header .page-links a+a::before{content:'';display:inline-block;height:100%;width:2px;background:white;vertical-align:-0.125em;margin:0 2em}
-.page-template-our-custom-docks-oct21 .kroeger-docks{padding:2.5rem 7.5vw 0}
+.page-template-our-custom-docks-oct21 .kroeger-docks{padding:2.5rem 7.5vw 3rem;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+.page-template-our-custom-docks-oct21 .kroeger-docks h1{margin-bottom:.5em;max-width:20ch}
+.page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(1)>div:nth-child(2){margin-left:4rem}
+.page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1){margin-left:2.5rem;max-width:550px;-webkit-box-flex:0;-ms-flex:0 0 37.5%;flex:0 0 37.5%}
+.page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul{list-style:none;margin-left:.5em}
+.page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul li{position:relative;font-family:'montserrat',sans-serif;font-weight:bold;text-transform:uppercase;color:#091f40;letter-spacing:.08em;font-size:14px}
+.page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul ul{margin-left:.75em}
+.page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul ul li{font-weight:normal}
+.page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul ul li::before{border-radius:unset;height:2px;background:#6e7583}
+.page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul li::before{content:'';position:absolute;width:5px;height:5px;border-radius:50%;background:#ba906c;top:1rem;left:-0.75rem}
+.page-template-our-custom-docks-oct21 .three-reasons{background:#091f40;padding:3rem 7.5vw 3rem}
+.page-template-our-custom-docks-oct21 .three-reasons h2{color:white;margin-bottom:1em;font-size:55px}
+.page-template-our-custom-docks-oct21 .three-reasons .number{background:#ba906c;font-size:60px;width:1em;height:1em;position:relative;border-radius:50%;margin:0 auto 1rem}
+.page-template-our-custom-docks-oct21 .three-reasons .number p{position:absolute;color:white;font-family:'freight-big-pro',serif;font-size:60px;font-weight:400;line-height:1em;top:calc(50% - 5px);left:calc(50% + 3px);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin:0}
+.page-template-our-custom-docks-oct21 .three-reasons .row>div:nth-child(4) .number p{top:calc(50% - 10px)}
+.page-template-our-custom-docks-oct21 .three-reasons p{text-align:center;font-weight:bold;text-transform:uppercase;font-family:'montserrat',sans-serif;color:white;font-size:13px;letter-spacing:.08em;line-height:1.75em;max-width:45ch;margin:0 auto}
+.page-template-our-custom-docks-oct21 #interactive-dock .interactive-header{padding:20px 2rem;background:#ba906c}
+.page-template-our-custom-docks-oct21 #interactive-dock .interactive-header .interactive-item::before{content:'';background:white;width:4px;height:4px;-webkit-transform:translateY(-50%);transform:translateY(-50%);left:-22.5px}
+.page-template-our-custom-docks-oct21 #dock-features{background:-webkit-gradient(linear,left bottom,left top,color-stop(75%,#f7f8f7),color-stop(75%,transparent));background:linear-gradient(to top,#f7f8f7 75%,transparent 75%)}
+.page-template-our-custom-docks-oct21 .roofs h4,.page-template-our-custom-docks-oct21 .materials h4,.page-template-our-custom-docks-oct21 .decking h4,.page-template-our-custom-docks-oct21 .dock h4{font-family:'montserrat',sans-serif;font-size:14px;font-weight:bold;letter-spacing:.08em;text-transform:uppercase;color:#ba906c;text-align:center}
+.page-template-our-custom-docks-oct21 .roofs p,.page-template-our-custom-docks-oct21 .materials p,.page-template-our-custom-docks-oct21 .decking p,.page-template-our-custom-docks-oct21 .dock p{color:#33353b;font-size:17px;text-align:center}
+.page-template-our-custom-docks-oct21 .materials button{background:transparent;text-transform:uppercase;font-family:'montserrat',sans-serif;font-size:14px;font-weight:bold;letter-spacing:.08em;color:#ba906c}
+.page-template-our-custom-docks-oct21 .materials button::after{content:'';width:10px;height:10px;background:#ba906c;display:inline-block;-webkit-clip-path:polygon(0 0,100% 0,0 100%);clip-path:polygon(0 0,100% 0,0 100%);-webkit-transform:rotate(225deg);transform:rotate(225deg);-webkit-transform-origin:75% 25%;transform-origin:75% 25%;-webkit-transition:all .3s;transition:all .3s}
+.page-template-our-custom-docks-oct21 .materials button.open::after{-webkit-transform:rotate(225deg);transform:rotate(225deg);-webkit-transform-origin:25% 100%;transform-origin:25% 100%}
+.page-template-our-custom-docks-oct21 .materials button:hover ~ .colors{opacity:1}
+.page-template-our-custom-docks-oct21 .materials .colors{-webkit-box-shadow:0 0 10px #0000003f;box-shadow:0 0 10px #0000003f;background:white;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:.75rem;opacity:0;-webkit-transition:opacity .3s;transition:opacity .3s;position:absolute}
+.page-template-our-custom-docks-oct21 .materials .colors:hover{opacity:1}
+.page-template-our-custom-docks-oct21 .materials .colors p{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%}
+.page-template-our-custom-docks-oct21 .materials .colors .color{-webkit-box-flex:0;-ms-flex:0 0 30%;flex:0 0 30%;margin:.25em;padding:.25em;-webkit-box-shadow:0 0 5px #0000003f;box-shadow:0 0 5px #0000003f;border:1px solid white;height:1%;color:white;font-family:'montserrat',sans-serif;font-weight:500;font-size:13px;min-width:100px;min-height:100px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(2){background:#1d2a18}
+.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(3){background:#2f2e21}
+.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(4){background:#4a4b3e}
+.page-template-our-custom-docks-oct21 .dock{background:#f7f8f7}
+.page-template-our-custom-docks-oct21 .decking h4,.page-template-our-custom-docks-oct21 .decking p{text-align:left}
+.page-template-our-custom-docks-oct21 .decking .page-content{padding:4% 2.5vw}
+.page-template-our-custom-docks-oct21 .btn{font-family:'montserrat',sans-serif;font-size:13px;letter-spacing:.1em;font-weight:500}
 @media(min-width:576px){.container{max-width:540px}
 .col-sm{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
 .col-sm-auto{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}

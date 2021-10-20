@@ -26,10 +26,10 @@
 </section>
 
 <section>
-    <div class="page-content mt-5 kroeger-docks pr-lg-0">
+    <div class="page-content mt-5 kroeger-docks">
         <div class="container-fluid justify-content-center p-0 m-0">
-            <div class="row">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
+            <div class="row mb-5 pb-5">
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay=".6s">
                     <div class=""><img class="img-shadow w-100" src="/wp-content/themes/kroeger-marine/img/deck-product-new.jpg" alt=""></div>
                 </div>
                 <div class="col-lg-4 mt-lg-0 mt-5 px-3 wow fadeInUp" data-wow-delay=".5s">
@@ -40,44 +40,44 @@
                     <p>However, there are many significant differences in structure and quality between a Kroeger Marine dock and docks from other manufacturers. The true, tangible value and integrity of our custom docks and accessories lies in the details. And this is where Kroeger Marine shines above the rest.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="offset-1 col-lg-4 mt-lg-0 mt-5 px-3 wow fadeInUp" data-wow-delay=".5s">
+            <div class="row justify-content-end">
+                <div class="col-lg-4 mt-lg-0 mt-5 px-0 wow fadeInUp" data-wow-delay=".5s">
                     <h1>The Advantages Of A Kroeger Marine Dock</h1>
                     <ul>
-                        <li>• Patent-pending Zigzag understructure
+                        <li>Patent-pending Zigzag understructure
                             <ul>
-                                <li>– Provides 6x more structural rigidity</li>
+                                <li>Provides 6x more structural rigidity</li>
                             </ul>
                         </li>
-                        <li>• 4” Roof Posts 
+                        <li>4” Roof Posts 
                             <ul>
-                                <li>– Stronger and prevents roof “sway” in windy conditions</li>
+                                <li>Stronger and prevents roof “sway” in windy conditions</li>
                             </ul>
                         </li>
-                        <li>• 4-sided Roof Rafters 
+                        <li>4-sided Roof Rafters 
                             <ul>
-                                <li>– Offers enhanced strength and fewer nesting areas for birds and insects</li>
+                                <li>Offers enhanced strength and fewer nesting areas for birds and insects</li>
                             </ul>
                         </li>
-                        <li>• 5 Roof Purlins on each side of the roof
+                        <li>5 Roof Purlins on each side of the roof
                             <ul>
-                                <li>– More roof cross-members mean greater roof rigidity and less roof twisting</li>
+                                <li>More roof cross-members mean greater roof rigidity and less roof twisting</li>
                             </ul>
                         </li>
-                        <li>• 26-Gauge Roof Panels  
+                        <li>26-Gauge Roof Panels  
                             <ul>
-                                <li>– Greater fade resistance than lesser roof panels</li>
-                                <li>– Heavier gauge material means greater denting and puncture resistance</li>
+                                <li>Greater fade resistance than lesser roof panels</li>
+                                <li>Heavier gauge material means greater denting and puncture resistance</li>
                             </ul>
                         </li>
-                        <li>• Eagle Dock Floats with Screw Flanges
+                        <li>Eagle Dock Floats with Screw Flanges
                             <ul>
-                                <li>– Prevents unwanted water intrusion, rot, and separation from the dock</li>
+                                <li>Prevents unwanted water intrusion, rot, and separation from the dock</li>
                             </ul>
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-6 pl-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                <div class="col-lg-7 pl-lg-5 wow fadeInUp" data-wow-delay=".6s">
                         <div class="pl-lg-4"><img class="img-shadow w-100" src="/wp-content/themes/kroeger-marine/img/deck-product-new.jpg" alt=""></div>
                 </div>
             </div>
@@ -85,10 +85,10 @@
     </div>
 </section>
 
-<section class="container-fluid">
+<section class="container-fluid three-reasons">
     <div class="row">
-        <div class="col-12">
-            <h2></h2>
+        <div class="col-12 text-center">
+            <h2>Only A Kroeger Marine Dock Is A Kroeger Marine Dock</h2>
         </div>
         <div class="col-md-6 col-lg-4">
             <div class="number">
@@ -120,7 +120,7 @@
         <li class="interactive-item">durable</li>
         <li class="interactive-item">focus on affordability</li>
         <li class="interactive-item">optional upgrades</li>
-        <li class="interactive-item">beautiful aesthetic</li>
+        <li class="interactive-item">focus on aesthetics</li>
     </ul>
     </div>
     <?php get_template_part( '/template-parts/dock'); ?>
@@ -133,7 +133,7 @@
             <div class="row">
                 <div class="col-12 wow fadeInUp" data-wow-delay=".2s">
                     <h2 class="text-center">Dock Features</h2>
-                    <h3 class="text-center">We offer several feature options with your custom Kroeger Marine dock.</h3>
+                    <h3 class="text-center">We offer many options for customizing roof structures from styles to materials and colors, which are equal parts of personal aesthetic appeal, desired utility, and cost. </h3>
                 </div>
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
@@ -142,7 +142,7 @@
             </div>
             <div class="roofs row">
                 <div class="col-lg-6">
-                    <img src="" alt="">
+                    <img src="/wp-content/uploads/2021/10/intro1.jpg" alt="">
                     <h4>HIP-AND-A HALF ROOF</h4>
                     <p>A hip-and-a-half roof consists of two hip roofs, one over the main slip(s) and a smaller one over the wide seating area, resulting in an L-shaped configuration. This design combines all the features of the hip roof with the added flexibility of uncovered and covered seating areas. This design gives a unique look to the dock while also offering great protection from the elements and extreme stability.</p>
                 </div>
@@ -152,8 +152,8 @@
                     <p>A hip roof is sloped on all sides, with the slopes meeting in a peak like a pyramid. This design is considered more architecturally complex in comparison to a traditional gable roof design, reflecting a contemporary and elegant design aesthetic. This roof style is self-bracing which creates increased strength and greater durability.</p>
                 </div>
             </div>
-            <div class="materials row">
-                <div class="col-12">
+            <div class="materials row mt-5">
+                <div class="col-12 text-center">
                     <h3>Materials</h3>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -170,7 +170,7 @@
                     <img src="" alt="">
                     <h4>Metal</h4>
                     <p>Aluminum metal sheets designed to withstand strong winds, debris, rain, mold, and mildew. Generally, very low maintenance and lasts 40+ years.</p>
-                    <div>
+                    <div class="text-center">
                         <button>Color Options</button>
                         <div class="colors">
                             <p>Our most popular color options include, but are not limited to...</p>
@@ -185,7 +185,7 @@
     </div>
 </section>
 
-<section>
+<section class="decking">
     <div id="decking" style="position: absolute; margin-top: 15rem;"></div>
     <div class="page-content">
         <div class="container-fluid">
@@ -219,7 +219,7 @@
     </div>
 </section>
 
-<section>
+<section class="dock">
     <div id="dock" style="position: absolute; margin-top: 15rem;"></div>
     <div class="page-content">
         <div class="container-fluid">
@@ -232,7 +232,7 @@
             <div class="row justify-content-center mt-4 wow fadeInUp" data-wow-delay=".2s">
                 <h3 class="dark-blue">Dock Options</h3>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <img src="" alt="">
                     <h4>SwimEze</h4>
@@ -268,8 +268,8 @@
                     <h4>PILINGS</h4>
                     <p>Pilings eliminate the need to have dock cables to the shore which can be a navigational hazard or restrict beach access.</p>
                 </div>
-                <div class="col-12">
-                    <h3>For more customization, view our unique, patented accessories.</h3>
+                <div class="col-12 text-center mt-3 mb-5">
+                    <h3 class="mb-4">For more customization, view our unique, patented accessories.</h3>
                     <a href="/our-accessories" class="btn btn-brown">VIEW ACCESSORIES</a>
                 </div>
             </div>
