@@ -139,7 +139,7 @@
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
             <div class="row justify-content-center mt-4 wow fadeInUp" data-wow-delay=".2s">
-                <h2 class="dark-blue">Roof Styles</h2>
+                <h3 class="dark-blue">Roof Styles</h3>
             </div>
             <div class="roofs row">
                 <div class="col-lg-6">
@@ -155,7 +155,7 @@
             </div>
             <div class="materials row mt-5 justify-content-center">
                 <div class="col-12 text-center">
-                    <h2>Materials</h2>
+                    <h3>Materials</h3>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <img src="/wp-content/uploads/2021/10/materials1.jpg">
