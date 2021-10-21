@@ -284,6 +284,10 @@
 <script>
     jQuery(document).ready(function() {
         $(window).on('scroll', function() {
+            stickyHeader();
+        });
+
+        function stickyHeader() {
             if ( window.pageYOffset > 19 && $('.page-links.sticky').length == 0 ) {
                 $('.page-links').addClass('sticky');
             } else if ( window.pageYOffset <= 19 ) {
@@ -291,7 +295,8 @@
             } else {
                 return;
             }
-        });
+        } 
+        stickyHeader();
 
         $('.toggle').on("touchstart, mousedown", function(e) {
             // var start = e.originalEvent.screenY;
