@@ -1883,7 +1883,7 @@ circle {
     h2 {
       color: white;
       margin-bottom: 1em;
-      font-size: 55px;
+      font-size: calc(max(40px, min(2vw, 55px)));
     }
 
     .number {
