@@ -1698,6 +1698,11 @@ circle {
         }
       }
 
+      .toggle {
+        appearance: none;
+        display: none;
+      }
+
       @media (max-width: 767px) {
         top: 85px;
         flex-wrap: wrap;
@@ -1714,6 +1719,7 @@ circle {
           height: 40px;
           bottom: -35px;
           z-index: 1;
+          display: block;
 
           &::after {
             content: '';
@@ -1809,6 +1815,10 @@ circle {
 
       @media (max-width: 1199px) {
         margin-right: 4rem;
+      }
+
+      @media (max-width: 767px) {
+        margin: 3rem 0 0;
       }
     }
 
@@ -2011,6 +2021,7 @@ circle {
       &:hover {
         ~.colors {
           opacity: 1;
+          z-index: 1;
         }
       }
     }

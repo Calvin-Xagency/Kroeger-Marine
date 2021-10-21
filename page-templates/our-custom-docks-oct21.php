@@ -41,7 +41,7 @@
                     <p>However, there are many significant differences in structure and quality between a Kroeger Marine dock and docks from other manufacturers. The true, tangible value and integrity of our custom docks and accessories lies in the details. And this is where Kroeger Marine shines above the rest.</p>
                 </div>
             </div>
-            <div class="row justify-content-end">
+            <div class="row justify-content-end mx-0">
                 <div class="order-xl-1 order-2 col-xl-4 mt-xl-0 mt-5 px-0 wow fadeInUp" data-wow-delay=".5s">
                     <h1>The Advantages Of A Kroeger Marine Dock</h1>
                     <ul>
