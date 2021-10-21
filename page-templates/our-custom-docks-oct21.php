@@ -139,7 +139,7 @@
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
             <div class="row justify-content-center mt-4 wow fadeInUp" data-wow-delay=".2s">
-                <h3 class="dark-blue">Roof Styles</h3>
+                <h2 class="dark-blue">Roof Styles</h2>
             </div>
             <div class="roofs row">
                 <div class="col-lg-6">
@@ -155,7 +155,7 @@
             </div>
             <div class="materials row mt-5 justify-content-center">
                 <div class="col-12 text-center">
-                    <h3>Materials</h3>
+                    <h2>Materials</h2>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <img src="/wp-content/uploads/2021/10/materials1.jpg">
@@ -197,7 +197,7 @@
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
             <div class="row justify-content-center mt-4 wow fadeInUp" data-wow-delay=".2s">
-                <h3 class="dark-blue">Decking Options</h3>
+                <h2 class="dark-blue">Decking Options</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
@@ -231,7 +231,7 @@
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
             <div class="row justify-content-center mt-4 wow fadeInUp" data-wow-delay=".2s">
-                <h3 class="dark-blue">Dock Options</h3>
+                <h2 class="dark-blue">Dock Options</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
@@ -293,7 +293,41 @@
             }
         });
 
-        $('.toggle').click(function() {
+        $('.toggle').on("touchstart, mousedown", function(e) {
+            // var start = e.originalEvent.screenY;
+            // var movement;
+            // $('.page-links').css("transition", "unset");
+            
+            // $(document).on("touchmove, mousemove", function(e) {
+            //     movement = start - e.originalEvent.screenY;
+            //     console.log(movement);
+
+            //     if (movement > 118) {
+            //         //if user is closing menu and goes to far, then ignore further input
+            //         return;
+            //     } else if (movement > 0) {
+            //         //if user is opening menu and goes to far, then ignore further input
+            //         return;
+            //     } else if (movement < -118) {
+            //         return;
+            //     }else {
+            //         $('.page-links').css("transform", "translateY(calc(-100% + " + (movement * -1) + "px))");
+            //     }
+            // }).on("touchend mouseup", function() {
+            //     $(document).off("touchmove mousemove");
+
+            //     // if (movement < -30) {
+            //     //     $('.page-links').attr("style", "");
+            //     //     $('.toggle').addClass("open");
+            //     //     return;
+            //     // } else {
+            //     //     $('.page-links').css("transform", "translateY(-100%)");
+            //     //     $('.toggle').removeClass("open");
+            //     //     return;
+            //     // }
+            // });
+
+            // $('.page-links').attr("style", "");
             if ( $(this).hasClass('open') ) {
                 $(this).removeClass('open');
                 $('.page-links').removeClass('open');
