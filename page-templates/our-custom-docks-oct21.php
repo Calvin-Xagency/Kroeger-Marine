@@ -31,7 +31,7 @@
         <div class="container-fluid justify-content-center p-0 m-0">
             <div class="row mb-5 pb-5">
                 <div class="col-xl-7 wow fadeInUp" data-wow-delay=".6s">
-                    <div class=""><img class="img-shadow w-100" src="/wp-content/uploads/2021/10/intro1.jpg"></div>
+                    <div class=""><img class="img-shadow w-100" src="/wp-content/uploads/2021/10/intro-1-new.jpg"></div>
                 </div>
                 <div class="col-xl-4 mt-xl-0 mt-5 px-3 wow fadeInUp" data-wow-delay=".5s">
                     <h5>QUALITY + INTEGRITY + LONGEVITY</h5>
