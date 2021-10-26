@@ -270,7 +270,7 @@
                     <p>Pilings eliminate the need to have dock cables to the shore which can be a navigational hazard or restrict beach access.</p>
                 </div>
                 <div class="col-12 text-center my-5">
-                    <a href="/our-accessories" target="_blank" class="btn btn-brown mb-5">DOWNLOAD BROCHURE PDF</a>        
+                    <a href="https://www.kroegermarine.com/wp-content/uploads/2021/10/KRO21_Sell-Sheet_Docks-10.15.21.pdf" target="_blank" class="btn btn-brown mb-5">DOWNLOAD BROCHURE PDF</a>        
                     <h3 class="mb-4">For more customization, view our unique, patented accessories.</h3>
                     <a href="/our-accessories" class="btn btn-brown">VIEW ACCESSORIES</a>
                 </div>
