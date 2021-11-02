@@ -1298,7 +1298,7 @@ circle{fill:#b78d6b}
 .page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul ul li{font-weight:normal}
 .page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul ul li::before{border-radius:unset;height:2px;background:#6e7583}
 .page-template-our-custom-docks-oct21 .kroeger-docks .row:nth-child(2)>div:nth-child(1) ul li::before{content:'';position:absolute;width:5px;height:5px;border-radius:50%;background:#ba906c;top:1rem;left:-0.75rem}
-.page-template-our-custom-docks-oct21 .three-reasons{background:#091f40 url('/wp-content/uploads/2021/10/threeReasons.jpg">');padding:3rem 7.5vw 3rem}
+.page-template-our-custom-docks-oct21 .three-reasons{background:#091f40 url("/wp-content/uploads/2021/10/threeReasons.jpg");padding:3rem 7.5vw 3rem}
 .page-template-our-custom-docks-oct21 .three-reasons h2{color:white;margin-bottom:1em;font-size:calc(max(40px, min(2vw, 55px)))}
 .page-template-our-custom-docks-oct21 .three-reasons .number{background:#ba906c;font-size:60px;width:1em;height:1em;position:relative;border-radius:50%;margin:0 auto 1rem}
 .page-template-our-custom-docks-oct21 .three-reasons .number p{position:absolute;color:white;font-family:'freight-big-pro',serif;font-size:60px;font-weight:400;line-height:1em;top:calc(50% - 5px);left:calc(50% + 3px);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin:0}
@@ -1319,9 +1319,9 @@ circle{fill:#b78d6b}
 .page-template-our-custom-docks-oct21 .materials .colors{-webkit-box-shadow:0 0 10px #0000003f;box-shadow:0 0 10px #0000003f;background:white;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:.75rem;opacity:0;-webkit-transition:opacity .3s;transition:opacity .3s;position:absolute;z-index:1}
 .page-template-our-custom-docks-oct21 .materials .colors p{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%}
 .page-template-our-custom-docks-oct21 .materials .colors .color{-webkit-box-flex:0;-ms-flex:0 0 30%;flex:0 0 30%;margin:.25em;padding:.25em;-webkit-box-shadow:0 0 5px #0000003f;box-shadow:0 0 5px #0000003f;border:1px solid white;height:1%;color:white;font-family:'montserrat',sans-serif;font-weight:500;font-size:13px;min-width:100px;min-height:100px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(2){background:#1d2a18}
-.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(3){background:#2f2e21}
-.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(4){background:#4a4b3e}
+.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(2){background:#233520}
+.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(3){background:#3c3a29}
+.page-template-our-custom-docks-oct21 .materials .colors .color:nth-child(4){background:#52534c}
 .page-template-our-custom-docks-oct21 .materials img{border-radius:50%;-webkit-filter:drop-shadow(0 15px 15px #0000007f);filter:drop-shadow(0 15px 15px #0000007f);margin:2rem 0 1rem}
 .page-template-our-custom-docks-oct21 .materials h2{color:#ba906c}
 .page-template-our-custom-docks-oct21 .decking h4,.page-template-our-custom-docks-oct21 .decking p{text-align:left}

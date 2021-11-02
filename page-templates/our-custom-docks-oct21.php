@@ -89,7 +89,7 @@
 <section class="container-fluid three-reasons">
     <div class="row justify-content-center">
         <div class="col-12 text-center">
-            <h2>Only A Kroeger Marine Dock Is A Kroeger Marine Dock</h2>
+            <h2>When it comes to Luxury Docks, Kroeger Marine Sets the Standard</h2>
         </div>
         <div class="col-md-6 col-lg-4">
             <div class="number">
@@ -139,7 +139,7 @@
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
             <div class="row justify-content-center mt-4 wow fadeInUp" data-wow-delay=".2s">
-                <h3 class="dark-blue">Roof Styles</h3>
+                <h3 class="dark-blue">Roof Options</h3>
             </div>
             <div class="roofs row">
                 <div class="col-lg-6">

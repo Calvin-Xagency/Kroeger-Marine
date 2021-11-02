@@ -1885,7 +1885,7 @@ circle {
   }
 
   .three-reasons {
-    background: #091f40 url('/wp-content/uploads/2021/10/threeReasons.jpg">');
+    background: #091f40 url('/wp-content/uploads/2021/10/threeReasons.jpg');
     padding: 3rem 7.5vw 3rem;
 
     h2 {
@@ -2074,15 +2074,18 @@ circle {
         justify-content: center;
 
         &:nth-child(2) {
-          background: #1d2a18;
+          //fern green
+          background: #233520;
         }
 
         &:nth-child(3) {
-          background: #2f2e21;
+          //burnished slate
+          background: #3c3a29;
         }
 
         &:nth-child(4) {
-          background: #4a4b3e;
+          //steel grey
+          background: #52534c;
         }
       }
     }
