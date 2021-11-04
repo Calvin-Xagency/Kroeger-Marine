@@ -38,7 +38,8 @@
                     <h1>Designed For Living. <br> Built For Life.</h1>
                     <p>Our reputation for service and for crafting world-class products is paramount. Because of this, we invest heavily in our people, our process, and in the finest, high-quality materials available. But we don’t stop there.</p>
                     <p>We go a step farther in blending both form and function to construct the finest waterfront products, such as new docks, <a href="/accessories" target="_blank" rel="noreferrer">dock accessories</a>, and <a href="/erosion-control/" target="_blank" rel="noreferrer">shoreline stabilization</a>. Our beautiful docks are crafted locally in our own facilities with sustainable and low or no-maintenance materials that will last for years to come. There are no products of higher quality, better materials, or finer aesthetics.</p>
-                    <p>However, there are many significant differences in structure and quality between a Kroeger Marine dock and docks from other manufacturers. The true, tangible value and integrity of our custom docks and accessories lies in the details. And this is where Kroeger Marine shines above the rest.</p>
+                    <p>To read more about customizing your dock, download our brochure, or read about our decking and dock options below.</p>
+                    <a href="https://www.kroegermarine.com/wp-content/uploads/2021/10/KRO21_Sell-Sheet_Docks-10.15.21.pdf" target="_blank" class="btn btn-brown mb-5">DOWNLOAD BROCHURE PDF</a>
                 </div>
             </div>
             <div class="row justify-content-end mx-0">
@@ -134,7 +135,7 @@
             <div class="row">
                 <div class="col-12 wow fadeInUp" data-wow-delay=".2s">
                     <h2 class="text-center">Dock Features</h2>
-                    <h3 class="text-center">Kroeger Marine® offers many options for customizing roof structures from styles to materials and colors. Roof selections are equal parts of personal aesthetic appeal, desired utility, and cost. We offer variations within these styles to accommodate a range of dock layouts, desired coverage, local nuances, and personal preferences.</h3>
+                    <h3 class="text-center">Kroeger Marine offers many options for customizing roof structures from styles to materials and colors. Roof selections are equal parts of personal aesthetic appeal, desired utility, and cost. We offer variations within these styles to accommodate a range of dock layouts, desired coverage, local nuances, and personal preferences.</h3>
                 </div>
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
@@ -160,17 +161,17 @@
                 <div class="col-lg-4 col-md-6">
                     <img src="/wp-content/uploads/2021/10/materials1.jpg">
                     <h4>COPPER</h4>
-                    <p>Copper roofs are elegant and their durability is unsurpassed. It will withstand all forms of natural abuse, from high winds to torrential rains. Copper is the only roofing material that improves with age. As it ages, copper builds up a protective film that works as a barrier or shield that is not achievable with any other material. Under most circumstances, cooper roofs do not require any maintenance.</p>
+                    <p>Copper roofs will withstand all forms of natural abuse, from high winds to torrential rains, and is the only roofing material that improves with age. Under most circumstances, cooper roofs do not require any maintenance.</p>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <img src="/wp-content/uploads/2021/10/materials2.jpg">
                     <h4>Cedar Shake</h4>
-                    <p>This roof consists of 1” treated cedar shake wooden shingles that are made from split logs. This material has a very distinct look because the thickness and length of each shingle can vary. The rough-surface shake is often considered to have a more “rustic” look.</p>
+                    <p>This roof consists of 1” treated cedar shake wooden shingles made from split logs and has a very distinct, rustic look because of the varying thickness and length of each shingle.</p>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <img src="/wp-content/uploads/2021/10/materials3.jpg">
                     <h4>Metal</h4>
-                    <p>Aluminum metal sheets designed to withstand strong winds, debris, rain, mold, and mildew. Generally, very low maintenance and lasts 40+ years.</p>
+                    <p>Aluminum metal sheets are designed to withstand strong winds, debris, rain, mold, and mildew. Generally, it is very low maintenance and lasts 40+ years.</p>
                     <div class="text-center">
                         <button>Color Options</button>
                         <div class="colors">
@@ -192,7 +193,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 wow fadeInUp" data-wow-delay=".2s">
-                    <h3 class="text-center">Kroeger Marine® offers natural wood and synthetic decking options to match your design aesthetic, budget, and maintenance-free lifestyle goals. The Brazilian hardwood IPE, a walnut species, is the best of natural woods and can be maintained to revive its natural beauty. An excellent low-maintenance synthetic choice is ENDECK® PVC decking, offering a "solid" color alternative to IPE. The ultimate in premium decking and an ultra-low/no maintenance decking is ZURI® PVC decking.</h3>
+                    <h3 class="text-center">Kroeger Marine® offers natural wood and synthetic decking options to match your design aesthetic, budget, and maintenance-free lifestyle goals.</h3>
                 </div>
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
@@ -203,17 +204,17 @@
                 <div class="col-lg-4 col-md-6">
                     <img src="/wp-content/uploads/2021/10/decking1.jpg">
                     <h4>Zuri®</h4>
-                    <p>From vibrant to neutral to weathered, the color options give you a variety of ways to put your personal stamp on your dock. And every color is backed by a 25-year Color Fastness Warranty against color shifting. Zuri® Premium Decking gives homeowners the look, feel, and charm of exotic timber without any of its maintenance demands. It adds up to zero trade-offs and truly unique exterior design possibilities.</p>
+                    <p>From vibrant to neutral to weathered, the color options give you a variety of ways to put your personal stamp on your dock. Zuri® Premium Decking gives homeowners the look, feel, and charm of exotic timber without any of its maintenance demands.</p>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <img src="/wp-content/uploads/2021/10/decking2.jpg">
                     <h4>Endeck®</h4>
-                    <p>Endeck® captures the classic look and feel of real wood without the headaches of extra maintenance, time, and expense. The embossed woodgrain on both sides of the capped cellular PVC deck boards mimic the look and feel of real wood. The "hard shell" technology provides a rugged layer that protects your deck boards on all four sides. The deck boards are strong, durable, and engineered to resist fading, staining, and are lighter weight than treated wood deck boards. They have dual embossing and both sides have a rough sewn texture providing excellent traction when wet. Surfaces remain cooler to the touch and splinter-free.</p>
+                    <p>Endeck® captures the classic look and feel of real wood without the headaches of extra maintenance, time, and expense. The deck boards are strong, durable, and engineered to resist fading, staining, and are lighter weight than treated wood deck boards.</p>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <img src="/wp-content/uploads/2021/10/decking3.jpg">
                     <h4>Ipe</h4>
-                    <p>A beautiful Brazilian hardwood that’s approximately 3 times harder than oak. Its density makes it naturally resistant to rot and decay. It can be left to weather naturally or be oiled every other year to keep its like-new look.</p>
+                    <p>This decking consists of a beautiful Brazilian hardwood that’s approximately 3 times harder than oak. Its density makes it naturally resistant to rot and decay.</p>
                 </div>
             </div>
         </div>
@@ -226,7 +227,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 wow fadeInUp" data-wow-delay=".2s">
-                    <h3 class="text-center">From SwimEze®, bench seats, dock lofts, cupolas, and flared ramps, to varied anchoring options and so much more, Kroeger Marine offers many innovative features and options to suit your waterfront lifestyle and budget. These dock additions can elevate the appearance and stability of the dock, while adding valuable functionality and benefits.</h3>
+                    <h3 class="text-center">Kroeger Marine offers many innovative features and options to suit your waterfront lifestyle and budget. These dock additions can elevate the appearance and stability of the dock, while adding valuable functionality and benefits.</h3>
                 </div>
             </div>
             <div class="vertical-divider my-0 mx-auto"></div>
@@ -237,41 +238,40 @@
                 <div class="col-md-6 col-lg-4">
                     <img src="/wp-content/uploads/2021/10/dock1.jpg">
                     <h4>SwimEze®</h4>
-                    <p>Effortless for everyone. Incorporated into the plan of your dock, SwimEze® has broad, easy steps that automatically descend into the water creating an inviting and luxurious experience. When not in use, the entire dock area can be utilized for relaxation, sunning, get-togethers, and more.</p>
+                    <p>SwimEze® has broad, easy steps that automatically descend into the water creating an inviting and luxurious experience.</p>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <img src="/wp-content/uploads/2021/10/dock2.jpg">
                     <h4>Bench Seat</h4>
-                    <p>This 4’ built-in dock bench with an optional Sunbrella® seat-back cushion.</p>
+                    <p>This 4’ built-in dock bench includes an optional Sunbrella® seat-back cushion.</p>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <img src="/wp-content/uploads/2021/10/dock3.jpg">
                     <h4>Dock Loft</h4>
-                    <p>This out-of-sight storage that blends well with the dock structure. The purpose is to increase the storage capacity of the dock and decrease clutter.</p>
+                    <p>The dock loft is out-of-sight storage that blends well with the dock structure while increasing the storage capacity of the dock.</p>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <img src="/wp-content/uploads/2021/10/dock4.jpg">
                     <h4>CUPOLA</h4>
-                    <p>A cupola is a decorative addition that distinguishes your dock from others. It provides an upscale look that adds value and a pleasing aesthetic. Wood or metal options that match the roof or accent the decking are available. All cupolas come with a sturdy weathervane that makes for an eye-catching accent.</p>
+                    <p>A cupola provides an upscale look that adds value and a pleasing aesthetic. Wood or metal options that match the roof or accent the decking are available.</p>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <img src="/wp-content/uploads/2021/10/dock5.jpg">
                     <h4>Flared Ramp</h4>
-                    <p>A Kroeger signature ramp is typically, a 4' x 20' - 60' walkway with hand railings and a 6' flared entrance to the dock. This gives it an elegant look while adding strength and durability.  The ramp is supported by cross-bracing or diagonal supports used to reinforce the struct for stability. Handrails area made of aluminum (painted or plain). Railing caps of deck material is also an option for a more finished appearance.</p>
+                    <p>A Kroeger signature ramp is typically a 4' x 20' - 60' walkway with hand railings and a 6' flared entrance to the dock, giving it an elegant look while adding strength and durability.</p>
                 </div>
+                <h3 class="col-12">Anchoring Selection</h3>
                 <div class="col-md-6 col-lg-4">
                     <img src="/wp-content/uploads/2021/10/dock6.jpg">
                     <h4>Cable and Winch</h4>
-                    <p>This is one of the most common and affordable methods for floating dock anchoring. It's a simple method that mounts cables to the shore and can easily be adjusted by a winch system located on the shore. Cable and Winch is a good solution for docks that need to have more mobility to move toward and away from the shoreline depending on water levels.</p>
+                    <p>Cable and winch is one of the most common and affordable methods for floating dock anchoring. It is a good solution for docks that need to have more mobility to move toward and away from the shoreline depending on water levels.</p>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <img src="/wp-content/uploads/2021/10/dock7.jpg">
                     <h4>PILINGS</h4>
-                    <p>A 5" schedule 40 aluminum pipe driven into the lakebed. Pilings are ideal for heavy load docks and perfect for locations with heavy wind and wave load. Pilings will keep the dock stable. The structure has built-in aluminum hoops that allow the dock to move toward or away from the shore during water fluctuations.</p>
-                    <p>Pilings also eliminate the need to have dock cables to the shore which can be a navigational hazard or restrict beach access.</p>
+                    <p>Pilings are ideal for heavy load docks and perfect for locations with heavy wind and wave load by keeping the dock stable. The structure allows the dock to move toward or away from the shore during water fluctuations.</p>
                 </div>
                 <div class="col-12 text-center my-5">
-                    <a href="https://www.kroegermarine.com/wp-content/uploads/2021/10/KRO21_Sell-Sheet_Docks-10.15.21.pdf" target="_blank" class="btn btn-brown mb-5">DOWNLOAD BROCHURE PDF</a>        
                     <h3 class="mb-4">For more customization, view our unique, patented accessories.</h3>
                     <a href="/our-accessories" class="btn btn-brown">VIEW ACCESSORIES</a>
                 </div>

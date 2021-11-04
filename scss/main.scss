@@ -1861,6 +1861,7 @@ circle {
 
           li {
             font-weight: normal;
+            text-transform: none;
 
             &::before {
               border-radius: unset;
