@@ -144,12 +144,12 @@
             </div>
             <div class="roofs row">
                 <div class="col-lg-6">
-                    <img src="/wp-content/uploads/2021/10/roof1.jpg">
+                    <img src="/wp-content/uploads/2021/10/roof2.jpg">
                     <h4>HIP-AND-A HALF ROOF</h4>
                     <p>A hip-and-a-half roof consists of two hip roofs, one over the main slip(s) and a smaller one over the wide seating area, resulting in an L-shaped configuration. This design combines all the features of the hip roof with the added flexibility of uncovered and covered seating areas. This design gives a unique look to the dock while also offering great protection from the elements and extreme stability.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="/wp-content/uploads/2021/10/roof2.jpg">
+                    <img src="/wp-content/uploads/2021/10/roof1.jpg">
                     <h4>HIP ROOF</h4>
                     <p>A hip roof is sloped on all sides, with the slopes meeting in a peak like a pyramid. This design is considered more architecturally complex in comparison to a traditional gable roof design, reflecting a contemporary and elegant design aesthetic. This roof style is self-bracing which creates increased strength and greater durability.</p>
                 </div>
