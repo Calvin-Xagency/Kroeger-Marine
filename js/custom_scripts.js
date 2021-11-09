@@ -186,7 +186,7 @@ jQuery(function($) {
 // $(document).ready(function() {
 //
 // });
-
+/*
 jQuery(function($) {
   // Smooth Scroll to Anchor
   // Select all links with hashes
@@ -233,7 +233,7 @@ jQuery(function($) {
         }
       }
     });
-});
+});*/
 
 // popup custom cookie
 jQuery(function($) {

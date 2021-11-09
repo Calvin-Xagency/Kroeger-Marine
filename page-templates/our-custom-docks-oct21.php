@@ -129,7 +129,7 @@
 </section>
 
 <section id="dock-features">
-    <div id="roof" style="position: absolute; margin-top: 15rem;"></div>
+    <div id="roof" style="position: absolute; margin-top: -7.5rem;"></div>
     <div class="page-content">
         <div class="container-fluid">
             <div class="row">
@@ -188,7 +188,7 @@
 </section>
 
 <section class="decking">
-    <div id="decking" style="position: absolute; margin-top: 15rem;"></div>
+    <div id="decking" style="position: absolute; margin-top: -7.5rem;"></div>
     <div class="page-content">
         <div class="container-fluid">
             <div class="row">
@@ -222,7 +222,7 @@
 </section>
 
 <section class="dock">
-    <div id="dock" style="position: absolute; margin-top: 15rem;"></div>
+    <div id="dock" style="position: absolute; margin-top: -7.5rem;"></div>
     <div class="page-content">
         <div class="container-fluid">
             <div class="row">
