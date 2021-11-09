@@ -37,7 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- <link rel="stylesheet" type="text/css" href="/wp-content/themes/kroeger-marine/dist/	jquery.background-video.css"> -->
 <!-- Fonts -->
 <link rel="stylesheet" href="https://use.typekit.net/duv0ars.css">
-<link rel="stylesheet" href="https://use.typekit.net/duv0ars.css">
+<link rel="stylesheet" href="https://use.typekit.net/owc7hvg.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.typekit.net/duv0ars.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">

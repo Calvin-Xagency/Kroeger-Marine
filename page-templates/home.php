@@ -21,22 +21,36 @@
          $subtitle = get_sub_field('slide_subtitle');
          $title= get_sub_field('slide_title');
          $button = get_sub_field('button_text');
-           $link = get_sub_field('button_link');
-           $bgimage = get_sub_field('background_image');
+         $link = get_sub_field('button_link');
+         $bgimage = get_sub_field('background_image');
 
          ?>
       <!-- The Slide -->
       <div class="jumbo_slide jumbo_slide_1 jquery-background-video" style="background-image: url(<?php echo $bgimage['url']; ?>)">
          <!-- If Video is True...Display Video -->
-         <?php if ( get_sub_field( 'video' ) ): ?>
+         <?php /*if ( get_sub_field( 'video' ) ): ?>
          <video class="jquery-background-video" autoplay muted loop poster="/wp-content/themes/kroeger-marine/img/water-frame.jpg">
             <source src="/wp-content/themes/kroeger-marine/img/water-loop.mp4" type="video/mp4">
          </video>
          <?php else: ?>
-         <?php endif; ?>
+         <?php endif; */?>
          <!-- End Video If/Else -->
          <!-- Slide Content -->
-         <?php if ( $link == '/loyalty' ) : ?>
+         <?php if ( $subtitle == "This block is in the template file" ) : ?>
+            <div class="row jumbo_content custom-docks">
+               <div class="col-12">
+                  <h1>Custom Lakefront Luxury</h1>
+                  <h3>Tailored To Fit Your Lifestyle</h3>
+                  <p>Our high-quality, luxury custom docks offer innovative features and add-ons to best suit your waterfront lifestyle.</p>
+                  <p><span>Let’s build your custom dock together.</span></p>
+               </div>
+               <div class="explore-dock">
+                  <a class="link-dark" href="/our-custom-docks/#roof">ROOF STYLES</a>
+                  <a class="link-dark" href="/our-custom-docks/#decking">DECKING OPTIONS</a>
+                  <a class="link-dark" href="/our-custom-docks/#dock">DOCK OPTIONS</a>
+               </div>
+            </div>
+         <?php elseif ( $link == '/loyalty' ) : ?>
             <div class="row jumbo_content loyalty">
                <div class="col-12">
                   <h1><?php echo $title; ?></h1>
