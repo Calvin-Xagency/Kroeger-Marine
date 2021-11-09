@@ -68,3 +68,5 @@ library/vendors/composer
 assets/img/.DS_Store
 
 wpgulp.config.js
+css/main.css
+css/main.min.css

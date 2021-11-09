@@ -1117,7 +1117,7 @@ button:focus{outline:0;border:0}
 .explore-dock a{font-size:17px}
 .explore-dock:before{content:"";height:2px;width:60%;left:50%;bottom:-20px;-webkit-transform:translateX(-50%);transform:translateX(-50%);position:absolute;background-color:#b78d6b;-webkit-transition:.3s ease all;transition:.3s ease all}
 .explore-dock:hover:before{width:80%;background-color:white;-webkit-transition:.3s ease all;transition:.3s ease all}
-.slider-nav{position:absolute;z-index:10;bottom:11%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+.slider-nav{position:absolute;pointer-events:none;z-index:10;bottom:11%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
 .slider-nav h3{color:white;font-family:freight-big-pro,serif;font-weight:400;font-style:normal;text-align:center;margin:45px}
 .slider-nav h3 span{font-size:24px}
 .home .owl-dots{text-align:center;padding-top:15px;position:absolute;bottom:10%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;width:50%}
