@@ -18,10 +18,14 @@
   top: 32px;
 }
 
+.admin-bar .navigation.scrolled {
+  top: 0;
+}
+
 body[class*="template-home"] {
   .owl-carousel {
     .owl-stage {
-      height: 100vh;
+      height: 100%;
 
       .owl-item {
         height: 100%;
@@ -222,6 +226,7 @@ body[class*="template-home"] {
       @media (max-width: 767px) {
         display: flex;
         flex-direction: column;
+        margin-bottom: 50px;
 
         a + a {
           margin-top: 1.5rem;
@@ -279,13 +284,17 @@ body[class*="template-home"] {
   }
 }
 
-.slider-nav {
+body[class*="template-home"] .slider-nav {
   position: absolute;
   pointer-events: none;
   z-index: 10;
   bottom: 11%;
   left: 50%;
   transform: translateX(-50%);
+
+  @media (max-width: 450px) {
+    bottom: 12.5px;
+  }
 
   h3 {
     color: white;
@@ -311,6 +320,10 @@ body[class*="template-home"] .owl-dots {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
+
+  @media (max-width: 450px) {
+    bottom: 2.5%;
+  }
 }
 
 body[class*="template-home"] .owl-dots button.owl-dot {
@@ -324,6 +337,7 @@ body[class*="template-home"] .owl-dots button.owl-dot {
   transition: 0.3s ease all;
 
   @media (max-width: 768px) {
+    width: 12px;
     height: 12px;
   }
 }
