@@ -11,14 +11,14 @@
 /**
  * Define Constants
  */
-define( 'CHILD_THEME_KROEGER_MARINE_VERSION', '1.0.1' );
+define( 'CHILD_THEME_KROEGER_MARINE_VERSION', '1.0.2' );
 
 /**
  * Enqueue styles
  */
 function child_enqueue_styles() {
 
-	wp_enqueue_style( 'kroeger-marine-theme-css', get_stylesheet_directory_uri() . '/css/main.min.css', array('astra-theme-css'), NULL, 'all' );
+	wp_enqueue_style( 'kroeger-marine-theme-css', get_stylesheet_directory_uri() . '/css/main.min.css', array('astra-theme-css'), CHILD_THEME_KROEGER_MARINE_VERSION, 'all' );
 	wp_enqueue_style( 'fix-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_KROEGER_MARINE_VERSION, 'all' );
 	wp_enqueue_script('local-only', get_stylesheet_directory_uri() . '/local-only-scripts.js');
 
