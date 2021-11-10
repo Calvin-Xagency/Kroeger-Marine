@@ -290,9 +290,9 @@
         });
 
         function stickyHeader() {
-            if ( window.pageYOffset > 19 && $('.page-links.sticky').length == 0 ) {
+            if ( window.pageYOffset > 10 && $('.page-links.sticky').length == 0 ) {
                 $('.page-links').addClass('sticky');
-            } else if ( window.pageYOffset <= 19 ) {
+            } else if ( window.pageYOffset <= 10 ) {
                 $('.page-links').removeClass('sticky');
             } else {
                 return;
