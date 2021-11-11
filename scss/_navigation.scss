@@ -66,11 +66,19 @@ body .navigation.scrolled {
   padding-left: 8px;
   margin: -3px 0 0 0;
   width: 50px;
+
+  @media (max-width: 330px) {
+    margin: 0;
+    width: 40px;
+    padding: 0;
+  }
 }
 
-.hamburger {
-  a {
-    margin-left: 15px;
+@media (min-width: 768px) {
+  .hamburger {
+    a {
+      margin-left: 15px;
+    }
   }
 }
 
@@ -85,6 +93,11 @@ body .navigation.scrolled {
   transition: 0.4s ease all;
   color: white;
   letter-spacing: 2px;
+
+  @media (max-width: 330px) {
+    display: inline-block;
+    margin-top: 5px;
+  }
 }
 
 .hamburger ul li {

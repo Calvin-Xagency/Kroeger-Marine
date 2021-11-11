@@ -195,6 +195,23 @@ body[class*="template-home"] {
   }
 
   .jumbo_inner .jumbo_slide .custom-docks {
+    >div:not(.explore-dock) :where(h1, h3, p) {
+      //where pseudo selector is the same as >div:not(.explore-dock) h1, >div:not(.explore-dock) h3, >div:not(.explore-dock) p
+      //mdn says safari doesn't support, but it does work on my safari session so who knows
+      max-width: 60ch; 
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    //any edge cases
+    >div:not(.explore-dock) h1, 
+    >div:not(.explore-dock) h3, 
+    >div:not(.explore-dock) p {
+      max-width: 60ch; 
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     h1 {
       color: #fafafa;
       @media (min-width: 1800px) {
@@ -247,9 +264,21 @@ body[class*="template-home"] {
         letter-spacing: 0;
         margin: 0 22px;
 
+        @media (max-width: 550px) {
+          display: none;
+        }
+
         &:hover {
           background: white;
           color: #b78d6b;
+        }
+
+        &.mobile {
+          display: none;
+
+          @media (max-width: 550px) {
+            display: block;
+          }
         }
       }
     }
@@ -339,6 +368,7 @@ body[class*="template-home"] .owl-dots button.owl-dot {
   margin: 0 20px;
   border: 1px solid #b38b6a;
   transition: 0.3s ease all;
+  flex-shrink: 0;
 
   @media (max-width: 768px) {
     width: 12px;

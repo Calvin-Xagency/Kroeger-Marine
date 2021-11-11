@@ -38,7 +38,7 @@
          <!-- Slide Content -->
          <?php if ( $subtitle == "This block is in the template file" ) : ?>
             <div class="row jumbo_content custom-docks">
-               <div class="col-12">
+               <div class="col-12 px-4 px-xl-0">
                   <h1>Custom Lakefront Luxury</h1>
                   <h3>Tailored To Fit Your Lifestyle</h3>
                   <p>Our high-quality, luxury custom docks offer innovative features and add-ons to best suit your waterfront lifestyle.</p>
@@ -48,6 +48,7 @@
                   <a class="link-dark" href="/our-custom-docks/#roof">ROOF STYLES</a>
                   <a class="link-dark" href="/our-custom-docks/#decking">DECKING OPTIONS</a>
                   <a class="link-dark" href="/our-custom-docks/#dock">DOCK OPTIONS</a>
+                  <a class="link-dark mobile" href="/our-custom-docks/">Get Started</a>
                </div>
             </div>
          <?php elseif ( $link == '/loyalty' ) : ?>
