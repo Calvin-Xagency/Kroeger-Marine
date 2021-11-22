@@ -2257,3 +2257,48 @@ circle {
     font-weight: 500;
   }
 }
+
+/*Thanksgiving Popup*/
+.popup-custom.thanksgiving {
+  .popup-container {
+    background-image: url(https://www.kroegermarine.com/wp-content/uploads/2021/11/thanksgiving-bg_v1.0.jpg);
+    padding: 3rem 0 5rem;
+    width: calc(max(300px, min(90vw, 700px)));
+  }
+
+  img {
+    width: calc(max(60px, min(5vw, 94px)));
+  }
+  
+  h2 {
+    color: #ba906c;
+    font-size: calc(max(50px, min(4.25vw, 77px)));
+  }
+
+  h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: calc(max(25px, min(2vw, 31px)));
+    letter-spacing: 0.08em;
+    margin-bottom: 30px;
+  }
+
+  h4 {
+    font-family: 'montserrat', sans-serif;
+    color: #ba906c;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: calc(max(22px, min(2vw, 25px)));
+  }
+
+  p {
+    font-family: 'montserrat', sans-serif;
+    font-size: calc(max(20px, min(2vw, 25px)));
+    a {
+      font-size: inherit;
+      color: inherit;
+      background: none;
+      font-weight: inherit;
+      font-family: inherit;
+    }
+  }
+}

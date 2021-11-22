@@ -191,6 +191,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
         <?php endif; ?>
 
+		<?php if ( is_page('home') ) : ?>
+		<div class="popup-custom thanksgiving">
+			<div class="popup-container">
+				<button class="popup-custom-close">X</button>
+				<img src="/wp-content/uploads/2020/12/kroeger-logo.png">
+				<h3 style="text-align: center;"><span style="color: #ffffff;">KROEGER MARINE</span></h2>
+				<h2 style="text-align: center;">Happy Thanksgiving</h1>
+				<div style="width: 100px; height: 2px; background-color: white; margin: 25px auto 35px;"></div>
+				<p style="width: 80%; line-height: 1.75rem; margin: 0 auto 50px; text-align: center;">We will be closing at 12pm on Wednesday, November 24th and will re-open Monday, November 29th at 8am.</p>
+				<h4 style="width: 75%; line-height: 1.75rem; margin: 0 auto; text-align: center;">CONTACT US AT</h4>
+				<p style="text-align: center; margin: 0;"><a href="mailto:dockandrock@kroegermarine.com">dockandrock@kroegermarine.com</a></p>
+			</div>
+		</div>
+        <?php endif; ?>
+
 		<?php /* if ( is_page('home') ) : ?>
 		<div class="popup-custom storm-alert">
 			<div class="popup-container">
